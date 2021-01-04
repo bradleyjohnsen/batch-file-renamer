@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchFileRenamer", "BatchFileRenamer\BatchFileRenamer.csproj", "{650E551F-6F59-451E-A3C7-86AF82DABF08}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateRenameTemplate", "CreateRenameTemplate\CreateRenameTemplate.csproj", "{E038D2D3-9AC3-4361-8F2B-D23D42C88205}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchRenameFromTemplate", "BatchRenameFromTemplate\BatchRenameFromTemplate.csproj", "{A03F78FF-3A50-47BF-A55F-91D2B6576708}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{2B434949-B078-4CF1-BD03-DE5CB8943581}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{650E551F-6F59-451E-A3C7-86AF82DABF08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{650E551F-6F59-451E-A3C7-86AF82DABF08}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{650E551F-6F59-451E-A3C7-86AF82DABF08}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{650E551F-6F59-451E-A3C7-86AF82DABF08}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E038D2D3-9AC3-4361-8F2B-D23D42C88205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E038D2D3-9AC3-4361-8F2B-D23D42C88205}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E038D2D3-9AC3-4361-8F2B-D23D42C88205}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{A03F78FF-3A50-47BF-A55F-91D2B6576708}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A03F78FF-3A50-47BF-A55F-91D2B6576708}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A03F78FF-3A50-47BF-A55F-91D2B6576708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B434949-B078-4CF1-BD03-DE5CB8943581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B434949-B078-4CF1-BD03-DE5CB8943581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B434949-B078-4CF1-BD03-DE5CB8943581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B434949-B078-4CF1-BD03-DE5CB8943581}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
